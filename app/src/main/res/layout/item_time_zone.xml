@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.ncautomation.commons.views.MyTextView
             android:id="@+id/time_zone_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -29,7 +29,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             tools:text="GMT-11:00 Midway"/>
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.ncautomation.commons.views.MyTextView
             android:id="@+id/time_zone_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
             app:layout_constraintVertical_chainStyle="packed"
             tools:text="11:00"/>
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.ncautomation.commons.views.MyTextView
             android:id="@+id/time_zone_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

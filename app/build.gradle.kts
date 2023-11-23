@@ -95,7 +95,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
+    implementation(project(":commons"))
 
     implementation(libs.bundles.lifecycle)
     implementation(libs.androidx.constraintlayout)
@@ -106,7 +106,8 @@ dependencies {
     implementation(libs.numberpicker)
     implementation(libs.autofittextview)
     implementation(libs.eventbus)
-
+    implementation(libs.bundles.compose)
+    debugImplementation(libs.bundles.compose.preview)
     implementation(libs.bundles.room)
     ksp(libs.androidx.room.compiler)
 }
